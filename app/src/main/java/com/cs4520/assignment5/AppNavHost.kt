@@ -26,7 +26,7 @@ fun AppNavHost(
         startDestination = startDestination
     ) {
         composable(NavigationItem.Home.route) {
-            HomeScreen(navController)
+            HomeScreen()
         }
         composable(NavigationItem.Login.route) {
             LoginScreen(navController)

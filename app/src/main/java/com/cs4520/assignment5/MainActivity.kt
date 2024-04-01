@@ -8,12 +8,9 @@ import androidx.compose.material.Surface
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.compose.rememberNavController
 
-//import androidx.activity.enableEdgeToEdge
-
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-//        enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         setContent {
             MaterialTheme {
